@@ -1,0 +1,27 @@
+{
+  "projeto": "MZ Updates",
+  "versaoAtual": "1.0.0",
+  "ultimaAtualizacao": "18/08/2026",
+  "descricao": "Central oficial de atualizações da base.",
+  "atualizacoes": [
+    {
+      "versao": "1.0.0",
+      "data": "18/08/2026",
+      "titulo": "Lançamento inicial",
+      "mudancas": [
+        {
+          "tipo": "adicionado",
+          "texto": "Página oficial de atualizações."
+        },
+        {
+          "tipo": "melhorado",
+          "texto": "Visual responsivo para celular e computador."
+        },
+        {
+          "tipo": "adicionado",
+          "texto": "Histórico carregado diretamente do arquivo updates.json."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+*{box-sizing:border-box} :root{--bg:#101312;--panel:#171b19;--panel2:#1d2320;--gold:#d6b45b;--emerald:#18a56f;--text:#f4f3ed;--muted:#9fa8a3;--border:#303a35}
+body{margin:0;background:radial-gradient(circle at top,#202823 0,#101312 45%);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;min-height:100vh}
+.wrap{width:min(920px,calc(100% - 32px));margin:auto;padding:54px 0 32px}.hero{display:flex;align-items:center;gap:24px;margin-bottom:32px}.logo{width:92px;height:92px;object-fit:contain;filter:drop-shadow(0 8px 22px #0008)}
+.eyebrow{font-size:12px;letter-spacing:.22em;color:var(--gold);font-weight:800}h1{font-size:clamp(32px,6vw,52px);margin:5px 0 4px}p{margin:0;color:var(--muted)}
+.current{display:flex;justify-content:space-between;gap:20px;padding:22px 24px;border:1px solid #6b5a2f;background:linear-gradient(135deg,#1d211e,#171a18);border-radius:16px;box-shadow:0 16px 40px #0004;margin-bottom:40px}
+.current small{display:block;color:var(--muted);font-size:11px;letter-spacing:.14em;margin-bottom:7px}.current strong{font-size:22px;color:var(--gold)}.current .date{text-align:right}.current .date strong{color:var(--text);font-size:16px}
+.section-title{display:flex;align-items:center;gap:16px;margin-bottom:18px}.section-title h2{font-size:20px;margin:0}.line{height:1px;flex:1;background:linear-gradient(90deg,var(--border),transparent)}
+.updates{display:grid;gap:16px}.card{background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--border);border-radius:16px;padding:22px;box-shadow:0 12px 30px #0003}
+.card-head{display:flex;justify-content:space-between;gap:15px;align-items:center;margin-bottom:16px}.version{color:var(--emerald);font-weight:850;font-size:20px}.card h3{margin:3px 0 0;font-size:16px}.card time{color:var(--muted);font-size:13px}
+.change{display:flex;gap:10px;margin:11px 0;color:#d9dedb;line-height:1.5}.tag{flex:0 0 auto;height:max-content;border-radius:99px;padding:3px 8px;font-size:10px;text-transform:uppercase;font-weight:800;letter-spacing:.05em}
+.tag.adicionado{background:#123c2c;color:#62dfa8}.tag.melhorado{background:#3b3217;color:#f0ce72}.tag.corrigido{background:#3b2020;color:#f09b9b}
+footer{text-align:center;color:#69736e;padding:25px;font-size:12px}
+.error{padding:20px;border:1px solid #633;border-radius:12px;color:#ffb4b4}
+@media(max-width:600px){.wrap{padding-top:32px}.hero{align-items:flex-start}.logo{width:70px;height:70px}.current{flex-direction:column}.current .date{text-align:left}.card-head{align-items:flex-start;flex-direction:column}}
