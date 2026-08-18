@@ -11,15 +11,19 @@
       "mudancas": [
         {
           "tipo": "adicionado",
-          "texto": "Página oficial de atualizações."
+          "texto": "Sistema de fazendas e plantção."
+        },
+         {
+          "tipo": "adicionado",
+          "texto": "Sistema de loja com craft."
         },
         {
           "tipo": "melhorado",
-          "texto": "Visual responsivo para celular e computador."
+          "texto": "Hud com identidade vizual."
         },
         {
           "tipo": "adicionado",
-          "texto": "Histórico carregado diretamente do arquivo updates.json."
+          "texto": "Sistema de restaurante."
         }
       ]
     }
